@@ -507,3 +507,119 @@ body{
 .logo-section img:hover{
     transform:scale(1.03);
 }
+
+
+/*kæmpe logo*/
+
+
+.footer{
+  background:#fff;
+  border-top:3px solid #111;
+
+  padding:35px 60px 50px;
+}
+
+.footer-container{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:80px;
+}
+
+.footer-column h4{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom:18px;
+}
+
+.footer-column p{
+  font-size:16px;
+  line-height:1.6;
+  margin-bottom:28px;
+}
+
+.newsletter{
+  width:380px;
+  height:82px;
+
+  background:#f3f0ed;
+  border-radius:25px;
+
+  overflow:hidden;
+
+  display:flex;
+  align-items:center;
+}
+
+.newsletter input{
+  flex:1;
+
+  border:none;
+  outline:none;
+
+  background:transparent;
+
+  padding:0 32px;
+
+  font-size:18px;
+}
+
+.newsletter button{
+  width:130px;
+  height:100%;
+
+  border:none;
+
+  background:transparent;
+
+  border-left:1px solid #d4d0cc;
+
+  font-size:18px;
+  font-weight:500;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.newsletter button:hover{
+  background:#ece7e2;
+}
+
+.privacy{
+  display:block;
+  margin-top:25px;
+
+  font-size:15px;
+}
+
+.copyright{
+  margin-top:60px;
+}
+
+.app-buttons{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.app-buttons img{
+  height:50px;
+}
+
+.footer-column ul{
+  list-style:none;
+}
+
+.footer-column li{
+  margin-bottom:15px;
+}
+
+.footer-column a{
+  text-decoration:none;
+  color:#111;
+  font-size:16px;
+}
+
+.footer-column a:hover{
+  opacity:0.7;
+}
