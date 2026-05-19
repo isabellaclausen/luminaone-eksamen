@@ -483,3 +483,27 @@ body{
 .cta-price strong{
   font-size:46px;
 }
+
+
+/*kæmpe logo*/
+
+.logo-section{
+    background:#ffffff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:180px 0;
+}
+
+.logo-section img{
+    width:1000px;
+    max-width:80%;
+    transition:0.4s ease;
+}
+
+
+.logo-section img:hover{
+    transform:scale(1.03);
+}
