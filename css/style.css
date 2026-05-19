@@ -369,3 +369,34 @@ body{
 .gallery-item:hover img{
   transform:scale(1.05);
 }
+
+/*sektion med lang tekst*/
+
+.about-section{
+    background:#ffffff;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    padding:120px 20px 160px;
+}
+
+.about-section h3{
+    font-size:42px;
+    font-weight:700;
+    color:#000;
+
+    margin-bottom:45px;
+}
+
+.about-section p{
+    max-width:1150px;
+
+    font-size:38px;
+    line-height:1.8;
+    font-weight:300;
+}
