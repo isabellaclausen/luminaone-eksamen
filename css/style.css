@@ -382,7 +382,7 @@ body{
 
     text-align:center;
 
-    padding:120px 20px 160px;
+    padding:100px 20px 140px;
 }
 
 .about-section h3{
@@ -399,6 +399,232 @@ body{
     font-size:38px;
     line-height:1.8;
     font-weight:300;
+}
+
+/*Sektion med Social Connect*/
+
+.social-connect{
+    background:#e8e3e0;
+
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:140px 100px;
+}
+
+.social-content h2{
+    font-size:78px;
+    font-weight:700;
+
+    margin-bottom:35px;
+}
+
+.social-description{
+    font-size:28px;
+    line-height:1.5;
+
+    max-width:700px;
+
+    margin-bottom:60px;
+}
+
+.social-feature{
+    display:flex;
+    align-items:center;
+
+    gap:28px;
+
+    margin-bottom:35px;
+}
+
+.social-icon{
+    width:72px;
+    height:72px;
+
+    border-radius:50%;
+
+    background:#efe5e1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.social-icon i{
+    font-size:30px;
+    color:#111;
+}
+
+.social-feature h3{
+    font-size:24px;
+    font-weight:700;
+
+    margin-bottom:5px;
+}
+
+.social-feature p{
+    font-size:18px;
+    color:#444;
+}
+
+.social-btn{
+    margin-top:35px;
+
+    width:260px;
+    height:80px;
+
+    border:none;
+    border-radius:24px;
+
+    background:#bdb8b7;
+
+    color:#fff;
+
+    font-size:22px;
+    cursor:pointer;
+
+    transition:.3s ease;
+}
+
+.social-btn:hover{
+    transform:scale(1.03);
+}
+
+.social-image{
+    display:flex;
+    justify-content:center;
+}
+
+.social-image img{
+    width:100%;
+    max-width:420px;
+
+    animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+}
+
+.social-image img:hover{
+    transform:rotate(-2deg) scale(1.02);
+}
+
+
+/*Trustpilot sektion*/
+
+
+.reviews-section{
+  background:#e8e3e0;
+  padding:120px 70px 170px;
+  text-align:center;
+}
+
+.reviews-header h2{
+  font-size:70px;
+  font-weight:300;
+  margin-bottom:25px;
+}
+
+.reviews-header h2 strong{
+  font-weight:700;
+}
+
+.reviews-header p{
+  font-size:24px;
+  font-weight:300;
+  margin-bottom:45px;
+}
+
+.trustpilot{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  margin-bottom:18px;
+}
+
+.stars{
+  color:#00b67a;
+  font-size:30px;
+  letter-spacing:4px;
+}
+
+.trustpilot strong{
+  font-size:28px;
+}
+
+.rating{
+  font-size:22px !important;
+  margin-bottom:80px !important;
+}
+
+.review-cards{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:60px;
+}
+
+.review-card{
+  background:#fff;
+  border-radius:28px;
+  padding:55px 40px 40px;
+  text-align:left;
+  min-height:390px;
+}
+
+.quote{
+  color:#efb4ce;
+  font-size:90px;
+  font-weight:700;
+  line-height:0.6;
+  margin-bottom:30px;
+}
+
+.review-text{
+  font-size:26px;
+  line-height:1.45;
+  font-weight:300;
+  margin-bottom:55px;
+}
+
+.review-line{
+  height:2px;
+  background:#f3b8d2;
+  margin-bottom:25px;
+}
+
+.review-person{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.review-person img{
+  width:58px;
+  height:58px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.review-person h4{
+  font-size:18px;
+  font-weight:700;
+}
+
+.review-person p{
+  font-size:16px;
+  margin:0;
 }
 
 
@@ -494,7 +720,7 @@ body{
     justify-content:center;
     align-items:center;
 
-    padding:120px 0;
+    padding: 10px; 
 }
 
 .logo-section img{
