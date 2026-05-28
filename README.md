@@ -30,6 +30,8 @@ Formålet med valideringen var at undersøge, om der var fejl i min CSS-syntaks.
 
 Valideringen hjalp mig med at sikre, at min CSS var skrevet korrekt og kunne læses af browseren.
 
+![CSS validering](img/css-validation.png)
+
 ## Validering af HTML
 
 Jeg har valideret min HTML-fil med W3C Markup Validation Service. Den fil, jeg har valideret, er `index.html`.
