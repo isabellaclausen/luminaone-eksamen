@@ -4,7 +4,7 @@
 
 Mit projekt er en landingpage for højtaleren LUMINA One. Formålet med projektet er at skabe en moderne og brugervenlig produktside, hvor brugeren hurtigt kan få et indtryk af produktets design, funktioner og farvevalg.
 
-Projektet er lavet med HTML, CSS og JavaScript. HTML bruges til at strukturere indholdet på siden, CSS bruges til styling og layout, og JavaScript bruges til at skabe interaktion på siden.
+Projektet er lavet med HTML, CSS og JavaScript. HTML bruges til at strukturere indholdet på siden, CSS bruges til styling, layout og interaktive effekter som hover-animationer, og JavaScript bruges til at skabe interaktion på siden.
 
 Brugeren kan blandt andet se produktinformation, navigere rundt på siden og skifte mellem forskellige farver på højtaleren. Projektet arbejder primært med billeddata, farvenavne og baggrundsfarver, som ændres ud fra brugerens valg.
 
@@ -14,11 +14,15 @@ Projektet er organiseret i forskellige filer og mapper for at gøre koden mere o
 
 - `index.html` indeholder selve strukturen på landingpagen, fx navbar, hero-sektion, produktsektion, feature-sektioner og footer.
 
-- `css/style.css` indeholder alt styling til siden, fx farver, skrifttyper, layout, spacing, hover-effekter og responsivt design.
+- `css/style.css` indeholder alt styling til siden, fx farver, skrifttyper, layout, spacing, hover-effekter.
 
 - `js/script.js` indeholder JavaScript-koden, som gør siden interaktiv.
 
 - `img`-mappen indeholder billeder, logo, favicon og produktbilleder.
+
+### Mappestruktur
+
+![Mappestruktur](img/mappestruktur.png)
 
 Jeg har valgt denne struktur, fordi det gør projektet nemmere at finde rundt i. HTML, CSS, JavaScript og billeder ligger adskilt, så projektet bliver mere overskueligt og lettere at rette i.
 
