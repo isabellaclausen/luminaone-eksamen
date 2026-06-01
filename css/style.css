@@ -31,10 +31,12 @@ body{
   position:relative;
 }
 
+/* Styrer størrelsen på Lumina-logoet */
 .logo img{
   width:200px;
 }
 
+/* Ikoner placeres til højre og vises på én række */
 .nav-icons{
   position:absolute;
   right:50px;
@@ -46,6 +48,7 @@ body{
   color:#1f1f1f;
 }
 
+/* Cursor ændres til hånd for at vise, at ikonerne kan interageres med */
 .nav-icons i{
   cursor:pointer;
 }
@@ -61,16 +64,19 @@ body{
   grid-template-columns:1fr 1fr;
 }
 
+/* Centrerer tekstindholdet lodret og vandret */
 .hero-left{
   display:flex;
   align-items:center;
   justify-content:center;
 }
 
+/* Begrænser tekstens bredde for bedre læsbarhed */
 .hero-content{
   width:420px;
 }
 
+/* Styling af hero-overskriften */
 .hero-content h1{
   font-family:'Cormorant Garamond', serif;
   font-size:82px;
@@ -81,6 +87,7 @@ body{
   margin-bottom:25px;
 }
 
+/* Styling af den introducerende tekst */
 .hero-content p{
   font-size:20px;
   font-weight:300;
@@ -89,6 +96,7 @@ body{
   margin-bottom:45px;
 }
 
+/* CTA-knap som fremhæver den primære handling på siden */
 .hero-content button{
   width:230px;
   height:62px;
@@ -111,6 +119,7 @@ body{
   transform:scale(1.03);
 }
 
+/* Sikrer at hero-billedet fylder hele kolonnen */
 .hero-right img{
   width:100%;
   height:100%;
@@ -133,6 +142,7 @@ body{
     padding:60px 70px;
 }
 
+/* Centrerer produktbilledet i venstre kolonne */
 .product-image{
   display:flex;
   justify-content:center;
@@ -146,8 +156,7 @@ body{
   object-fit:contain;
 }
 
-
-
+/* Begrænser bredden på tekstindholdet for bedre læsbarhed */
 .product-info{
   max-width:500px;
 }
@@ -168,13 +177,14 @@ body{
   margin-bottom:25px;
 }
 
-
+/* Vandret linje som adskiller produktinformation */
 .price-line{
   width:100%;
   height:1px;
   background:#65605d;
 }
 
+/* Pris og farvevalg placeres på samme række */
 .price-row{
   display:flex;
   align-items:center;
@@ -188,11 +198,13 @@ body{
   font-weight:400;
 }
 
-
+/* Farvecirkler vises på én række med afstand imellem */
 .colors{
   display:flex;
   gap:16px;
 }
+
+
 
 /* Farvecirkler bruges til valg af højtalerens farve */
 .color{
@@ -205,16 +217,17 @@ body{
   transition:0.2s;
 }
 
+/* Hover-effekt giver feedback når brugeren holder musen over en farve */
 .color:hover{
   transform:scale(1.1);
 }
 
-/* Markerer den valgte farve */
+/* Markerer den valgte farve med en kant*/
 .color.active{
   border:2px solid #222;
 }
 
-
+/* Farver på de enkelte højtalervarianter */
 .pink{
   background:#dca39b;
 }
@@ -232,7 +245,7 @@ body{
 }
 
 
-
+/* CTA-knap til køb af produktet */
 .cart-btn{
   width:100%;
   height:82px;
@@ -254,12 +267,13 @@ body{
   transition:0.3s;
 }
 
+/* Hover-effekt fremhæver knappen og giver visuel feedback */
 .cart-btn:hover{
   transform:scale(1.02);
 }
 
 
-/*de fire lyserøde features sektion*/
+/*De fire lyserøde features sektion*/
 
 
 .features-section{
@@ -276,11 +290,13 @@ body{
   text-align:center;
 }
 
+/* Hvert feature-kort centreres i sit grid-område */
 .feature{
   max-width:260px;
   margin:0 auto;
 }
 
+/* Ikoner fremhæver de vigtigste produktfunktioner visuelt */
 .feature i{
   font-size:58px;
   color:#efb4ce;
@@ -300,7 +316,7 @@ body{
   color:#222;
 }
 
-/*de fire billeder på række med tekst*/
+/* Galleri med produktbilleder i forskellige miljøer */
 
 .gallery-section{
   width:100%;
@@ -309,6 +325,7 @@ body{
   text-align:center;
 }
 
+/* Fremhæver sektionens label */
 .section-label{
   color:#efb4ce;
   font-size:22px;
@@ -324,6 +341,7 @@ body{
   color:#050505;
 }
 
+/* Billederne vises i et grid med fire kolonner */
 .gallery-grid{
   width:100%;
   display:grid;
@@ -338,6 +356,7 @@ body{
   border-radius:18px;
 }
 
+/* Skjuler dele af billedet ved zoom-effekten */
 .gallery-item{
   border-radius:18px;
   overflow:hidden;
@@ -356,7 +375,8 @@ body{
   transform:scale(1.05);
 }
 
-/*sektion med lang tekst*/
+
+/*Sektion med lang tekst*/
 
 .about-section{
     background:#ffffff;
@@ -379,6 +399,7 @@ body{
     margin-bottom:45px;
 }
 
+/* Begrænser tekstbredden */
 .about-section p{
     max-width:1150px;
 
@@ -409,6 +430,7 @@ body{
     margin-bottom:35px;
 }
 
+/* Begrænser tekstbredden for bedre læsbarhed */
 .social-description{
     font-size:28px;
     line-height:1.5;
@@ -418,6 +440,7 @@ body{
     margin-bottom:60px;
 }
 
+/* Ikon og tekst placeres på samme række */
 .social-feature{
     display:flex;
     align-items:center;
@@ -427,6 +450,7 @@ body{
     margin-bottom:35px;
 }
 
+/* Ikoner vises i en cirkel for at skabe visuel sammenhæng */
 .social-icon{
     width:72px;
     height:72px;
@@ -457,6 +481,7 @@ body{
     color:#444;
 }
 
+/* CTA-knap som leder brugeren videre til app-funktionen */
 .social-btn{
     margin-top:35px;
 
@@ -476,15 +501,18 @@ body{
     transition:.3s ease;
 }
 
+/* Hover-effekt giver visuel feedback på knappen */
 .social-btn:hover{
     transform:scale(1.03);
 }
 
+/* Centrerer telefonbilledet i højre kolonne */
 .social-image{
     display:flex;
     justify-content:center;
 }
 
+/* Animation giver telefonen et let svævende udtryk */
 .social-image img{
     width:100%;
     max-width:420px;
@@ -503,12 +531,13 @@ body{
     }
 }
 
+/* Hover-effekt tilfører en lille rotation og zoom */
 .social-image img:hover{
     transform:rotate(-2deg) scale(1.02);
 }
 
 
-/*Trustpilot sektion*/
+/*Trustpilot-sektion med kundeanmeldelser*/
 
 
 .reviews-section{
@@ -533,6 +562,7 @@ body{
   margin-bottom:45px;
 }
 
+/* Trustpilot-logo og stjerner placeres på samme række */
 .trustpilot{
   display:flex;
   justify-content:center;
@@ -541,6 +571,7 @@ body{
   margin-bottom:18px;
 }
 
+/* Grøn farve anvendes for at skabe genkendelse af Trustpilot */
 .stars{
   color:#00b67a;
   font-size:30px;
@@ -563,6 +594,7 @@ body{
   gap:60px;
 }
 
+/* Hvert review vises som et separat kort */
 .review-card{
   background:#fff;
   border-radius:28px;
@@ -571,6 +603,7 @@ body{
   min-height:390px;
 }
 
+/* Fremhæver citatet visuelt i hvert kort */
 .quote{
   color:#efb4ce;
   font-size:90px;
@@ -586,12 +619,14 @@ body{
   margin-bottom:55px;
 }
 
+/* Adskiller anmeldelsen fra afsenderen */
 .review-line{
   height:2px;
   background:#f3b8d2;
   margin-bottom:25px;
 }
 
+/* Profilbillede og information placeres på samme række */
 .review-person{
   display:flex;
   align-items:center;
@@ -616,7 +651,7 @@ body{
 }
 
 
-/*CTA sektion*/
+/* CTA-sektion som afslutter siden og opfordrer brugeren til køb */
 
 
 .cta-section{
@@ -640,6 +675,7 @@ body{
   margin-bottom:70px;
 }
 
+/* Ikon og tekst placeres ved siden af hinanden */
 .benefit{
   display:flex;
   align-items:center;
@@ -648,17 +684,20 @@ body{
   font-weight:300;
 }
 
+/* Ikonerne bruger brandfarven for visuel sammenhæng */
 .benefit i{
   font-size:46px;
   color:#efb4ce;
 }
 
+/* Lodrette linjer adskiller fordelene visuelt */
 .divider{
   width:1px;
   height:42px;
   background:#555;
 }
 
+/* Primær CTA-knap til køb */
 .cta-btn{
   width:300px;
   height:64px;
@@ -682,6 +721,7 @@ body{
   color:#444;
 }
 
+/* Pris vises centreret med dekorative linjer */
 .cta-price{
   margin-top:25px;
   display:flex;
@@ -701,7 +741,7 @@ body{
 }
 
 
-/*kæmpe logo*/
+/*Kæmpe logo nederst på siden*/
 
 .logo-section{
     background:#ffffff;
@@ -713,13 +753,14 @@ body{
     padding: 10px; 
 }
 
+/* Begrænser logoets størrelse og gør det responsivt */
 .logo-section img{
     width:1000px;
     max-width:80%;
     transition:0.4s ease;
 }
 
-
+/* Hover-effekt giver logoet en let forstørrelse */
 .logo-section img:hover{
     transform:scale(1.03);
 }
@@ -735,6 +776,7 @@ body{
   padding:35px 60px 50px;
 }
 
+/* CSS Grid bruges til at organisere footerens indhold */
 .footer-container{
   display:grid;
   grid-template-columns:2fr 1fr 1fr;
@@ -798,6 +840,7 @@ body{
   transition:0.3s;
 }
 
+/* Hover-effekt giver feedback på tilmeldingsknappen */
 .newsletter button:hover{
   background:#ece7e2;
 }
@@ -813,6 +856,7 @@ body{
   margin-top:60px;
 }
 
+/* App-download badges placeres på samme række */
 .app-buttons{
   display:flex;
   gap:15px;
@@ -823,6 +867,7 @@ body{
   height:50px;
 }
 
+/* Fjerner standard styling fra listen */
 .footer-column ul{
   list-style:none;
 }
@@ -837,6 +882,7 @@ body{
   font-size:16px;
 }
 
+/* Hover-effekt gør links mere interaktive */
 .footer-column a:hover{
   opacity:0.7;
 }
