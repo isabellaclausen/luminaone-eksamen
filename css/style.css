@@ -1,8 +1,12 @@
+/* Nulstiller browserens standard margin og padding */
+
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
+
+/* Grundlæggende styling for hele siden */
 
 body{
   background:#e8e3e0;
@@ -14,6 +18,7 @@ body{
 
 /* NAVBAR */
 
+/* Navbar opsat med Flexbox for at centrere logo og placere ikoner */
 .navbar{
   width:100%;
   height:90px;
@@ -49,6 +54,7 @@ body{
 
 /* HERO */
 
+/* Hero-sektion opdelt i to kolonner med CSS Grid */
 .hero{
   width:100%;
   display:grid;
@@ -100,6 +106,7 @@ body{
   transition:0.3s;
 }
 
+/* Hover-effekt giver visuel feedback på CTA-knappen */
 .hero-content button:hover{
   transform:scale(1.03);
 }
@@ -114,7 +121,7 @@ body{
 
 /* PRODUCT SECTION */
 
-
+/* Produktsektion opdelt i billede og produktinformation */
 .product-section{
     width:100%;
     background:#e8e3e0;
@@ -187,6 +194,7 @@ body{
   gap:16px;
 }
 
+/* Farvecirkler bruges til valg af højtalerens farve */
 .color{
   width:34px;
   height:34px;
@@ -201,6 +209,7 @@ body{
   transform:scale(1.1);
 }
 
+/* Markerer den valgte farve */
 .color.active{
   border:2px solid #222;
 }
@@ -249,30 +258,6 @@ body{
   transform:scale(1.02);
 }
 
-
-
-/* RESPONSIVE */
-
-@media(max-width:700px){
-
-  .hero{
-    grid-template-columns:1fr;
-  }
-
-  .product-section{
-    grid-template-columns:1fr;
-    gap:40px;
-  }
-
-  .hero-content{
-    padding:80px 40px;
-  }
-
-  .product-info{
-    margin:auto;
-  }
-
-}
 
 /*de fire lyserøde features sektion*/
 
@@ -366,6 +351,7 @@ body{
   transition:transform 0.4s ease;
 }
 
+/* Hover-effekt skaber en let zoom på billederne */
 .gallery-item:hover img{
   transform:scale(1.05);
 }
@@ -385,7 +371,7 @@ body{
     padding:100px 20px 140px;
 }
 
-.about-section h3{
+.about-section h2{
     font-size:42px;
     font-weight:700;
     color:#000;
@@ -506,6 +492,7 @@ body{
     animation:float 5s ease-in-out infinite;
 }
 
+/* Animation får telefonen til at svæve let */
 @keyframes float{
     0%,100%{
         transform:translateY(0px);
@@ -569,6 +556,7 @@ body{
   margin-bottom:80px !important;
 }
 
+/* Kundeanmeldelser vises i kort for bedre overskuelighed */
 .review-cards{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
@@ -617,7 +605,7 @@ body{
   object-fit:cover;
 }
 
-.review-person h4{
+.review-person h3{
   font-size:18px;
   font-weight:700;
 }
@@ -643,6 +631,7 @@ body{
   margin-bottom:70px;
 }
 
+/* Fordele ved køb vises på én række */
 .benefits-row{
   display:flex;
   justify-content:center;
@@ -682,6 +671,7 @@ body{
   transition:all 0.3s ease;
 }
 
+/* Hover-effekt fremhæver CTA-knappen */
 .cta-btn:hover{
   transform:scale(1.05);
 }
@@ -763,6 +753,7 @@ body{
   margin-bottom:28px;
 }
 
+/* Nyhedsbrev med inputfelt og tilmeldingsknap */
 .newsletter{
   width:380px;
   height:82px;

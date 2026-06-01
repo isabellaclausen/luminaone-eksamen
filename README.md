@@ -67,3 +67,6 @@ function chooseColor(button, image, color, gradient) {
         productSection.style.background = gradient;
     });
 }
+```
+
+Funktionen bruges til at opdatere produktbillede, farvenavn og baggrund, når brugeren vælger en ny farvevariant.

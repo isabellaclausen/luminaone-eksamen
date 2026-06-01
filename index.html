@@ -45,12 +45,12 @@
   </header>
 
 
-  <!-- HERO -->
+<!-- Hero-sektion med introduktion til produktet -->
   <section class="hero">
 
     <div class="hero-left">
 
-      <div class="hero-content">
+      <article class="hero-content">
 
         <h1>
           Skabt til <br>
@@ -63,11 +63,12 @@
           hverdagens øjeblikke.
         </p>
 
+ <!-- Primær CTA-knap som leder brugeren mod køb -->
         <button>
           Shop Lumina One
         </button>
 
-      </div>
+      </article>
 
     </div>
 
@@ -80,20 +81,21 @@
 
 
 
-  <!-- PRODUCT -->
+<!-- PRODUCT -->
   <section class="product-section">
 
     <figure class="product-image">
+<!-- Produktbillede som ændres via JavaScript ved valg af farve -->
       <img
         id="speakerImage"
         src="img/beige-hoejtaler.png"
-        alt=""
+        alt="Lumina højtaler i farven moonlight white"
       >
     </figure>
 
 
 
-    <div class="product-info">
+    <article class="product-info">
 
       <h2>
         Kraftig bærbar <br>
@@ -108,7 +110,7 @@
       </p>
 
 
-      <!--hr står for horizontal rule/vandret linje-->
+<!--hr står for horizontal rule/vandret linje-->
      <hr>
 
 
@@ -116,6 +118,8 @@
 
         <h3>1499 kr.</h3>
 
+
+<!-- Farvevælgere som skifter produktbilledet -->
         <div class="colors">
 
           <span
@@ -123,6 +127,7 @@
             data-image="img/dusty-rose-hoejtaler.png"
           ></span>
 
+<!-- Aktiv farve vises som standard ved indlæsning -->
           <span
             class="color beige active"
             data-image="img/beige-hoejtaler.png"
@@ -142,20 +147,21 @@
 
       </div>
 
-    <!--hr står for horizontal rule/vandret linje-->
+<!--hr står for horizontal rule/vandret linje-->
      <hr>
 
       <button class="cart-btn">
         Læg i kurv
       </button>
 
-    </div>
+    </article>
 
   </section>
 
-    <!--de fire lyserøde features-->
+<!--de fire lyserøde features-->
 
  <section class="features-section">
+<!-- H2 skjules visuelt men hjælper skærmlæsere og semantik -->
   <h2 class="sr-only">Fordele ved Lumina One</h2>
 
   <article class="feature">
@@ -178,12 +184,12 @@
 
   <article class="feature">
     <i class="fa-regular fa-lightbulb"></i>
-    <h3>Skab stemingen</h3>
+    <h3>Skab stemningen</h3>
     <p>Integreret LED-lys til enhver stemning.</p>
   </article>
   </section>
 
-    <!--sektion med de fire billeder-->
+  <!--sektion med de fire billeder der viser produktet i forskellige miljøer-->
 
   <section class="gallery-section">
 
@@ -194,19 +200,19 @@
   <div class="gallery-grid">
 
   <figure class="gallery-item">
-    <img src="img/gallery-1.jpg" alt="">
+    <img src="img/gallery-1.jpg" alt="Billede af højtaleren på seng">
   </figure>
 
   <figure class="gallery-item">
-    <img src="img/gallery-2.jpg" alt="">
+    <img src="img/gallery-2.jpg" alt="Billede af kvinde med højtaleren">
   </figure>
 
   <figure class="gallery-item">
-    <img src="img/gallery-3.jpg" alt="">
+    <img src="img/gallery-3.jpg" alt="Billede af højtaleren på bøger">
   </figure>
 
   <figure class="gallery-item">
-    <img src="img/gallery-4.jpg" alt="">
+    <img src="img/gallery-4.jpg" alt="Billede af kvinde der holder højtaleren">
   </figure>
 
 </div>
@@ -247,7 +253,9 @@
       fællesfester.
     </p>
 
-    <article class="social-feature">
+
+<!-- Feature der forklarer en funktion i appen -->
+    <section class="social-feature">
 
       <div class="social-icon">
         <i class="fa-solid fa-share-nodes"></i>
@@ -258,7 +266,7 @@
         <p>Invitér venner og del dine playlister med ét klik.</p>
       </div>
 
-    </article>
+    </section>
 
     <article class="social-feature">
 
@@ -308,7 +316,7 @@
 
 <section class="reviews-section">
 
-  <div class="reviews-header">
+  <header class="reviews-header">
     <h2>Elsket <strong>af kunderne</strong></h2>
     <p>Lumina kombinerer lyd, lys og design i én samlet oplevelse</p>
 
@@ -320,7 +328,7 @@
     <p class="rating">
       <strong>4,8 ud af 5</strong> baseret på 1.200+ anmeldelser
     </p>
-  </div>
+  </header>
 
   <div class="review-cards">
 
@@ -380,13 +388,15 @@
 </section>
 
 
-<!--sektion med CTA-->
+<!-- Afsluttende Call To Action som opfordrer brugeren til køb -->
 
 <section class="cta-section">
 
   <p class="section-label">Lumina One</p>
 
   <h2>Tag LUMINA med dig</h2>
+
+  <!-- Fordele ved køb fremhæves for at styrke beslutningen -->
 
   <div class="benefits-row">
 
@@ -440,7 +450,7 @@
 
   <div class="footer-container">
 
-    <!-- Venstre -->
+<!-- Venstre -->
     <div class="footer-column">
 
       <p>
@@ -453,7 +463,9 @@
         og eksklusive updates fra Lumina.
       </p>
 
-      <div class="newsletter">
+<!-- Nyhedsbrev hvor brugeren kan tilmelde sig opdateringer -->
+
+      <form class="newsletter">
 
         <input
           type="email"
@@ -462,7 +474,7 @@
 
         <button>Tilmeld</button>
 
-      </div>
+      </form>
 
       <span class="privacy">
         Ved tilmelding accepterer du vores privatlivspolitik.*
@@ -476,7 +488,7 @@
 
 
 
-    <!-- Midten -->
+<!-- Midten -->
 
     <div class="footer-column">
 
@@ -493,21 +505,20 @@
           alt="App Store og Google Play"
         >
 
-        
-        
-
       </div>
 
     </div>
 
 
 
-    <!-- Højre -->
+ <!-- Højre -->
 
     <div class="footer-column">
 
       <h3>Social</h3>
 
+
+<!-- Links til virksomhedens sociale medier -->
       <ul>
         <li><a href="#">Instagram</a></li>
         <li><a href="#">Facebook</a></li>
